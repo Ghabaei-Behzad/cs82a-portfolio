@@ -1,5 +1,5 @@
 ## cs82a-portfolio | Data Science Portfolio | Labs from CS 82A at Santa Monica College Fall 2026
 ## Module 2: Python Foundations
 - Lab 1.ipynb Python Warm-Up and first push
-- Lab 2.ipynb Multiplication using (for while) loops.
-- Lab3.ipynb Temperature Category
+- Lab 2.ipynb Multiplication using (for while) loops. 4.2
+- Lab 3.ipynb Temperature Category. 4.4
