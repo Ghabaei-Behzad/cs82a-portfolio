@@ -2,3 +2,4 @@
 ## Module 2: Python Foundations
 - Lab 1.ipynb Python Warm-Up and first push
 - Lab 2.ipynb Multiplication using (for while) loops.
+- Lab3.ipynb Temperature Category
