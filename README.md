@@ -9,3 +9,8 @@
 - Lab 1.ipynb Rescue a Messy Dataset |
 - Lab 2.ipynb Text Book Problem 2.1 |
 - Lab 3.ipynb Text Book Problem 2.2 |
+
+## Module 4: Statistics that answer questions
+- Lab 1.ipynb Describe and Correlate
+- Lab 2.ipynb Text Book Problem 3.1
+- Lab 3.ipynb Text Book Problem 3.2
