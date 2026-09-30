@@ -16,5 +16,5 @@
 ## Module 5: Visualization and Statistical Analysis in Python
 -Lab 1.ipynb Chart It, Then Test It | four labeled, honest charts and one two-group t-test with a written conclusion.
 seaborn charting, honest labeling, group comparison, t-tests.
--Lab 2.ipynb Text Book Problem 3.3 |
--Lab 3.ipynb Text Book Problem 3.5 |
+-Lab 2.ipynb Text Book Problem 5.3 |
+-Lab 3.ipynb Text Book Problem 5.5 |
