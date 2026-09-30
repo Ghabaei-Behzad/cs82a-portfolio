@@ -13,3 +13,8 @@
 - Lab 1.ipynb Describe and Correlate | upload sales_clean.csv and produce a descriptive statistics report with correlation data, said to a manager, mean/median/spread, histograms, correlation
 - Lab 2.ipynb Text Book Problem 3.1 | statistics on a bookstore inventory, mean and median
 - Lab 3.ipynb Text Book Problem 3.2 | Compute Pearson’s r between the list price and best (sale) price of trucks; (extremely strong, near 0.999). Plot the scatter, near-perfect linearity to predict a best price from a list price, 2–3 sentence confidence argument.
+## Module 5: Visualization and Statistical Analysis in Python
+-Lab 1.ipynb Chart It, Then Test It | four labeled, honest charts and one two-group t-test with a written conclusion.
+seaborn charting, honest labeling, group comparison, t-tests.
+-Lab 2.ipynb Text Book Problem 3.3 |
+-Lab 3.ipynb Text Book Problem 3.5 |
