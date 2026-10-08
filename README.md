@@ -18,3 +18,7 @@
 seaborn charting, honest labeling, group comparison, t-tests.
 - Lab 2.ipynb Text Book Problem 5.3 | cleaning before charting, bar charts, honest labeling
 - Lab 3.ipynb Text Book Problem 5.5 | invalid-data screening, multi-variable correlation, before/after honesty.
+## Module 6: SQL and Databases
+- Lab 1.ipynb Query Like an Analyst | SELECT/WHERE/ORDER BY, aggregates with GROUP BY, JOINs, SQL-to-pandas. store_orders.csv and store_customers.csv
+- Lab 2.ipynb Textbook Appendix C: Create and Insert | CREATE TABLE, INSERT, SQL. 
+- Lab 3.ipynb Textbook Appendix C: Retrieve and Search | WHERE and ORDER BY retrieval, LIKE text search, query-to-chart. 
