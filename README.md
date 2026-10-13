@@ -21,4 +21,8 @@ seaborn charting, honest labeling, group comparison, t-tests.
 ## Module 6: SQL and Databases
 - Lab 1.ipynb Query Like an Analyst | SELECT/WHERE/ORDER BY, aggregates with GROUP BY, JOINs, SQL-to-pandas. store_orders.csv and store_customers.csv
 - Lab 2.ipynb Textbook Appendix C: Create and Insert | CREATE TABLE, INSERT, SQL. 
-- Lab 3.ipynb Textbook Appendix C: Retrieve and Search | WHERE and ORDER BY retrieval, LIKE text search, query-to-chart. 
+- Lab 3.ipynb Textbook Appendix C: Retrieve and Search | WHERE and ORDER BY retrieval, LIKE text search, query-to-chart.
+## Module 7: Machine Learning: Your First Predictive Models
+- Lab 1.ipynb Train, Test, Tell the Truth | train/test splits, linear regression, kNN, decision trees, honest evaluation, tips.csv
+- Lab 2.ipynb Text Book Problem 7.1 | What drives a restaurant’s overall rating?   multi-feature regression, coefficient interpretation, business recommendation, ratings.tsv
+- Lab3.ipynb Text Book Problem 8.1 |  Titanic: who survived?  feature preparation, classification, honest test-set evaluation, titanic_train.csv
