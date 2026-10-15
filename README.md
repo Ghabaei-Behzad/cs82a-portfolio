@@ -26,3 +26,6 @@ seaborn charting, honest labeling, group comparison, t-tests.
 - Lab 1.ipynb Train, Test, Tell the Truth | train/test splits, linear regression, kNN, decision trees, honest evaluation, tips.csv
 - Lab 2.ipynb Text Book Problem 7.1 | What drives a restaurant’s overall rating?   multi-feature regression, coefficient interpretation, business recommendation, ratings.tsv
 - Lab3.ipynb Text Book Problem 8.1 |  Titanic: who survived?  feature preparation, classification, honest test-set evaluation, titanic_train.csv
+## Module 8: Working with generative AI
+- Lab 1.ipynb AI-Assisted EDA, Verified | AI-assisted analysis, verification, prompt logging, cloud notebooks, data privacy judgment.  Use Generative AI to explore penguins.csv
+- Lab 2.ipynb Text Book Problem 9.1 | AI-Assisted use lifecyclesavings.csv
