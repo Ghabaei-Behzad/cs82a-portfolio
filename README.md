@@ -29,3 +29,4 @@ seaborn charting, honest labeling, group comparison, t-tests.
 ## Module 8: Working with generative AI
 - Lab 1.ipynb AI-Assisted EDA, Verified | AI-assisted analysis, verification, prompt logging, cloud notebooks, data privacy judgment.  Use Generative AI to explore penguins.csv
 - Lab 2.ipynb Text Book Problem 9.1 | AI-Assisted use lifecyclesavings.csv
+## Module 9:
