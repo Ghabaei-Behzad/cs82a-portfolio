@@ -1,8 +1,8 @@
 ## cs82a-portfolio | Data Science Portfolio | Labs from CS 82A at Santa Monica College | Fall 2026
 
-## I'm interested in data sets with business related or health related content.
-## I'm looking for an entry level analyst role.
-## **tools used** Python, pandas, matpoltlib, seaborn. schikit-learn, SQL, jupyter notebook: using Anaconda Prompt or Google Colabs.
+#### I'm interested in data sets with business related or health related content.
+#### I'm looking for an entry level analyst role.
+## ** tools used ** Python, pandas, matpoltlib, seaborn. schikit-learn, SQL, jupyter notebook: using Anaconda Prompt or Google Colabs.
 
 ## Table of Contents
 
