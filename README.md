@@ -31,5 +31,6 @@ seaborn charting, honest labeling, group comparison, t-tests.
 - Lab 2.ipynb Text Book Problem 9.1 | AI-Assisted use lifecyclesavings.csv
 ## Module 9: Cloud Computing, Careers, and Your Portfolio
 - Lab 1.ipynb Textbook Problem 6.1, in the Cloud |  Colab notebook, write a function converting pounds to kilograms, call it on three values with your own weight and use a different unit.
-- Lab 2.ipynb 
+- Lab 2.ipynb
+## Final Project: 
 
