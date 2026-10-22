@@ -1,0 +1,125 @@
+### SLIDE 1: Title and Project Overview
+
+* **Slide Title:** Data Science Final Project: Analyzing Restaurant Tipping Behavior
+* **Presenter:** Behzad Ghabaei
+* **Course:** CS 82A Data Science
+* **Instructor:** Instructor Seno
+* **Date:** October 21, 2026
+* **Visualisation:** 
+
+  * Dataset Name: Seaborn Tips Dataset
+  * LOCATION: WHERE CAN THIS DATASET BE LOCATED? KAGGLE.COM CALLED TIPS.CSV: https://www.kaggle.com/datasets/mitadrumridha/tips-csv
+  * Dimensions: 244 records, 7 variables (total_bill, tip, sex, smoker, day, time, size)
+* **Video:**
+"Good afternoon, Instructor Seno and classmates. Welcome to the presentation of my Data Science Final Project, titled 'Final Tips'. Today, we will explore a common economic and behavioral question: How do restaurant business variables like the total restaurant bill, party size, smoker status, and time of week influence customer tipping behavior? To answer this, we analyzed 244 records across seven distinct columns as structural variables to discover patterns, calculate correlations, and ultimately construct a predictive machine learning model to estimate tips based on final transaction."
+
+### SLIDE 2: Core Research Questions and Dataset Integrity
+
+* **Slide Title:** Core Hypotheses and Exploratory Data Analysis (EDA)
+* **Bullet Points:** 
+
+  * Primary Question: Does spending more money on a restaurant visit, guarantee a larger tip?
+  * Categorical Effects: How do time of day, week, and smoking status alter distributions?
+  * Data Integrity: Evaluated using data type validation and missing value checks.
+  * Data Overview: Clean data environment with zero null values across all 244 records.
+* **Video:**
+"Before diving into statistical modeling, we must perform a complete Exploratory Data Analysis EDA. Our primary objective was to determine whether a true linear relationship exists between the restaurant total bill spending, and tip amount. We also want to understand how other columns can be used in a categorical context, such as weekends versus weekdays or smokers versus non-smokers, and how this will effect the patterns. Using our pandas library for validation, we confirmed that our dataset has zero null entries.  This establishes a good foundation for EDA exploratory descriptive analysis, and statistical modeling."
+
+### SLIDE 3: Visualizing Tipping Behavior (Scatter and Bar Plots)
+
+* **Slide Title:** Tipping Variables: Spending and Weekly Dynamics
+* **Visualisation:** 
+
+  * Scatter Plot: Tip vs. Total Bill (grouped by Lunch/Dinner)
+  * Bar Plot: Average Tip Volume by Day of Week
+* **Key Findings:** 
+  * Strong visible positive linear relationship between total bills and tips.
+  * Dinner shows a higher upper-bound expenditure cluster than lunch.
+  * Sunday and Saturday generate the highest average tips, indicating that weekends have impressive results.
+* **Video:**
+"Let’s examine our first set of behavioral visualizations. On the left, our scatter plot shows the relationship between the total bill and the resulting tip. We notice a positive linear relationship. Higher bills heavily cluster during dinner hours. On the right, when tracking tips across specific days of the week, weekends hold a better outcome. Saturday and Sunday produce the highest average tips.  This validates that leisure dining gets stronger outcomes for the restaurant service staff."
+
+### SLIDE 4: Categorical Variability and Correlation Mapping
+
+* **Slide Title:** Smoker Behavior and Feature Inter-Correlation
+* **Visualisation:** 
+
+  * Violin Plot: Tip Distributions based on Smoker Status
+  * Heatmap: Matrix of Product Correlation
+* **Key Findings:** 
+
+  * Smokers and non-smokers display nearly identical median tipping baselines.
+  * Smokers introduce much higher volatility, causing significant upper-bound outliers.
+  * Total bill holds the dominant numeric correlation with tip value (r = 0.68).
+* **Video:**
+"Next, we looked at smoking preferences and overall numerical relationships. Our violin plot reveals an intriguing piece of consumer behavior: while smokers and non-smokers share an almost identical median tipping baseline, smokers display drastically higher variance. They are responsible for the extreme upper-bound tipping outliers in this restaurant. Moving to our correlation matrix on the right, we verified that the total bill is the single most dominant numeric predictor of tip value, carrying a strong Pearson correlation coefficient r of 0.68. Party size shows a trailing, moderate positive correlation of 0.49."
+
+### SLIDE 5: Linear Regression Modeling and Mathematical Finding
+
+* **Slide Title:** Machine Learning Prediction & Ordinary Least Squares (OLS)
+* **Formula:** Tip = 0.92 + 0.11 * Total_Bill
+* **Mathematical Finding:** 
+  * Slope Model: 𝑚=𝑟×(𝜎𝑦/𝜎𝑥)  * Calculation: 0.68×(1.38/8.90)=0.11
+  * Predictive Test: A custom 100.00 dollar bill yields a prediction of 11.42 USD.
+* **Video:**
+"Using these strong correlations, we trained a Scikit-Learn Ordinary Least Squares Linear Regression model. The engineered formula derived by our model is: Tip equals 0.92 plus 0.11 times the Total Bill. This tells us that for every single dollar added to a restaurant bill, the expected tip increases by approximately eleven cents, building on top of a 92-cent baseline intercept. Mathematically, this slope is perfectly derived from data's properties: multiplying our Pearson correlation of 0.68 by the ratio of our standard deviations yields exactly 0.11. To validate this model in production, we passed a clean $100 custom bill through our feature pipeline, successfully outputting an exact predicted tip of 11.42."
+
+### SLIDE 6: Summary and Insights
+
+* **Slide Title:** Key Analytical Takeaways
+* **Bullet Points:** 
+
+  * **Pearson's r:** Meal spending remains the ultimate engine of tipping magnitude (𝑟=0.68).
+  * **Staff Scheduling:** Staff should heavily favor weekend dinner shifts to capture optimal satisfation.
+  * **Variance:** Smoker tables present a high-risk, high-reward profile with huge upper-bound outliers.
+  * **Model Accuracy:** Simple linear regression effectively models variables with perfect mathematical alignment.
+* **Video:**
+"In conclusion, our data-driven look into restaurant tipping provides clear, actionable insights. First, total expenditure is the single most reliable driver of tip size. For floor managers, staff scheduling should be optimized to favor weekend dinner shifts, where high-bill clusters and weekend premiums intersect to maximize service revenue. Finally, while smoker tables introduce wider financial swings, they represent high-reward opportunities of giving service. Our linear model successfully captures these trends, proving that statistics in data science can easily assist and predict everyday consumer habits. Thank you for your time."
+
+### CONCLUSIVE SUMMARY
+
+### Quantitative Analysis of Food Service Gratuities and Predictive Modeling
+
+**Course:** CS 82A Data Science
+**Instructor:** Instructor Seno
+**Student:** Behzad Ghabaei
+**Date:** October 21, 2026 
+
+### 1. Research Objective and Dataset Overview
+
+The purpose of this data science project was to conduct a comprehensive statistical and predictive analysis of restaurant tipping behavior. Utilizing the foundational *Tips* dataset, this investigation explores how (total_bill), party size (size), time of day (time), day of the week (day), and customer smoking habits (smoker), impact the final gratuity (tip) left by restaurant patrons. 
+
+The data comprises of 244 unique records across 7 features. Structural integrity checks confirmed that the data profile contains zero null or missing entries across all categories, ensuring an operational environment for machine learning modeling and exploratory data analysis. 
+
+### 2. Exploratory Data Analysis and Visualizations
+
+A series of robust statistical visualizations were engineered to isolate and examine behavioral patterns within the restaurant environment: 
+
+* **Expenditure:** A scatter plot mapping tip against total_bill revealed a strong, positive linear relationship. (-/+ .5 to 1 is considered strong)  When grouped by time of day, results indicated that while lunch and dinner follow nearly identical linear slopes, higher-value bills (and larger tips) heavily cluster during dinner service.
+* **Weekly Gratuity Trends:** Categorical bar plot analysis evaluating the average tip size per day proved that leisure-driven weekend dining yields higher gratuities. Sunday and Saturday generated the highest average tip, establishing a noticeable weekend revenue success for service workers.
+* **Variance (Smoker vs. Non-Smoker):** Violin plot distribution analysis shows a crucial behavioral variation. The median tip value remained nearly identical between smokers and non-smokers. However, smokers exhibited higher variance and volatility, accounting for the absolute highest upper-bound outlier tips recorded in the entire dataset.
+* **Feature Inter-Correlation:** To show these relationships, a correlation heatmap was generated. The matrix confirmed that total_bill holds the strongest numerical relationship to tip with a strong Pearson correlation coefficient r of **0.68**, followed by a moderate correlation of **0.49** for table size.
+
+### 3. Predictive Machine Learning and Mathematical Findings
+
+Looking at the correlation between total bill size and gratuity, an ordinary least squares (OLS) Simple Linear Regression model was constructed using the scikit-learn library. The model mathematically used he following predictive equation: 
+
+Predicted Tip=0.92+0.11×Total_Bill 
+
+This formula establishes that a waiter can expect an average tip of 0.92, which then increases by approximately 0.11 for every single dollar added to the restaurant bill. 
+
+The model's slope (m = 0.11) is perfectly built by the data properties of simple linear regression. The slope is a direct function of Pearson's correlation coefficient (r) and the standard deviations of the independent and dependent variables
+𝑚= 𝑟 × 𝜎𝑦 / 𝜎𝑥
+m=0.68 × (1.38/8.90)= 0.11 
+
+To test the model in production, a validation entry for a 100.00 custom bill was passed through a  Pandas DataFrame feature pipeline, successfully outputting an exact, prediction of **$11.42**. 
+
+### 4. Data Insights
+
+1. **Shift Optimization:** Restaurant floor managers can directly use these insights for staff scheduling. Experienced service staff can maximize service quality.
+2. **High-Volatility:** Service staff should treat smoker tables as high-volatility, high-reward opportunities and the capacity for extreme upper-bound tips can enhanced outcomes of hospitality focus.
+
+
+```python
+
+```
