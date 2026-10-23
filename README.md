@@ -2,7 +2,8 @@
 
 #### I'm interested in data sets with business related or health related content.
 #### I'm looking for an entry level analyst role.
- ***tools used:*** ### Python, pandas, matpoltlib, seaborn. schikit-learn, SQL, jupyter notebook: using Anaconda Prompt or Google Colabs.
+ ***tools used:*** 
+ ### Python, pandas, matpoltlib, seaborn. schikit-learn, SQL, jupyter notebook: using Anaconda Prompt or Google Colabs.
 
 ## Table of Contents
 
@@ -39,5 +40,8 @@ seaborn charting, honest labeling, group comparison, t-tests.
 ## Module 9: Cloud Computing, Careers, and Your Portfolio
 - Lab 1.ipynb Textbook Problem 6.1, in the Cloud |  Colab notebook, write a function converting pounds to kilograms, call it on three values with your own weight and use a different unit.
 - Lab 2.ipynb Text Book Problem 6.3 Migration Note | migration note for workflow: to move your work from Colab to one other platform like AWS SageMaker,  transfers, redo items, and a risk.
-## Final Project: 
+## Final Project: Your First Portfolio Analysis | Choose a dataset, ask a question, answer it: clean, explore, visualize, model, and communicate. 
+- Final_Tips.ipynb and tips.csv | How do total restaurant bills, time of day, party size, and day of the week influence the amount and percentage of the tip left by customers?
+- README.md | video walkthrough and description.
+- FINAL.mp4 | download a video file to watch me explain visualizations as slides.
 
